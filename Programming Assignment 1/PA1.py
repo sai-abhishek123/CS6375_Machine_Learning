@@ -131,7 +131,7 @@ class SimpleLogisiticRegression():
         return np.mean(y_true != y_pred)
 
 if __name__ == '__main__':
-
+ 
 # Load the training data
     M = np.genfromtxt('./data/monks-3.train', missing_values=0, skip_header=0, delimiter=',', dtype=int)
     ytrn = M[:, 0]
