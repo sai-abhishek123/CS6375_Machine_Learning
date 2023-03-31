@@ -1,3 +1,32 @@
+# naive_bayes.py
+# ---------
+# Licensing Information:  You are free to use or extend these projects for
+# personal and educational purposes provided that (1) you do not distribute
+# or publish solutions, (2) you retain this notice, and (3) you provide clear
+# attribution to UT Dallas, including a link to http://cs.utdallas.edu.
+#
+# This file is part of Programming Assignment 3 for CS6375: Machine Learning.
+# Nikhilesh Prabhakar (nikhilesh.prabhakar@utdallas.edu),
+# Athresh Karanam (athresh.karanam@utdallas.edu),
+# Sriraam Natarajan (sriraam.natarajan@utdallas.edu),
+#
+#
+# INSTRUCTIONS:
+# ------------
+# 1. This file contains a skeleton for implementing a simple version of the 
+# Logistic Regression algorithm. Insert your code into the various functions 
+# that have the comment "INSERT YOUR CODE HERE".
+#
+# 2. Do NOT modify the classes or functions that have the comment "DO NOT
+# MODIFY THIS FUNCTION".
+#
+# 3. You may add any other helper functions you feel you may need to print,
+# visualize, test, or save the data and results. 
+#
+# 4. Make sure to save your model in a pickle file after you fit your Naive 
+# Bayes algorithm.
+#
+
 import numpy as np
 from collections import defaultdict
 import pandas as pd
